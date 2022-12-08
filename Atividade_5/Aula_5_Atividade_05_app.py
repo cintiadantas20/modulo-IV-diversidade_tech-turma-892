@@ -39,8 +39,6 @@ df_selected = df[cols_selected]
 ## SIDEBAR - Filtro de amostra
 with st.sidebar:
     st.title('Amostra')
-
-
     amostra = \
         st.slider('Selecione a porcentagem da amostra desejada:', 
                   min_value=1, max_value=100, step=1)
