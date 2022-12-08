@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import plotly.express as px
 import streamlit as st
-from funcoes import carregar_dataset
+from funcoes import carrega_dataset
 
 
 # CORPO
@@ -21,7 +21,7 @@ nome_dataset = \
                   value='penguins')
    
 if nome_dataset: 
-    df = carregar_dataset(nome_dataset)
+    df = carrega_dataset(nome_dataset)
     
         
 # SIDEBAR
