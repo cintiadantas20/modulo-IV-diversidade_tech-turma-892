@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import plotly.express as px
 import streamlit as st
-from funcoes import carregar_dataset
+from .funcoes import carregar_dataset
 
 
 # CORPO
